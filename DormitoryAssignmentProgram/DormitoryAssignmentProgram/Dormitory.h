@@ -9,7 +9,7 @@
 
 using namespace std;
 
-const string dormitoryFilename = "dormitory.txt";
+const string DORMITORY_FILE = "dormitory.txt";
 
 
 struct Student {

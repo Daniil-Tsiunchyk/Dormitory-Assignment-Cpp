@@ -129,13 +129,13 @@
   <ItemGroup>
     <ClCompile Include="Dormitory.cpp" />
     <ClCompile Include="DormitoryAssignmentProgram.cpp" />
-    <ClCompile Include="MakeHash.cpp" />
+    <ClCompile Include="HashSHA-256.cpp" />
     <ClCompile Include="Protection.cpp" />
     <ClCompile Include="Accounts.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dormitory.h" />
-    <ClInclude Include="MakeHash.h" />
+    <ClInclude Include="HashSHA-256.h" />
     <ClInclude Include="Protection.h" />
     <ClInclude Include="Accounts.h" />
   </ItemGroup>

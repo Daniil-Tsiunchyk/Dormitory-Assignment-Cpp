@@ -3,21 +3,20 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <cstring>
 #include <iomanip>
 #include <sstream>
-#include <Windows.h>
-#include "makeHash.h"
+#include <chrono>
+#include <thread>
+#include "HashSHA-256.h"
 using namespace std;
 
 struct User {
-	string username;
-	string password;
-	int role;
+    string login;
+    string password;
+    int role;
 };
 
-const string usersFilename = "users.txt";
-
+const string USERS_FILE = "users.txt";
 
 void loadAccounts(User users[], int& usersCount);
 void registration(User users[], int& usersCount);

@@ -21,7 +21,7 @@
     <ClCompile Include="Accounts.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="MakeHash.cpp">
+    <ClCompile Include="HashSHA-256.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Protection.cpp">
@@ -38,7 +38,7 @@
     <ClInclude Include="Protection.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="MakeHash.h">
+    <ClInclude Include="HashSHA-256.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Dormitory.h">

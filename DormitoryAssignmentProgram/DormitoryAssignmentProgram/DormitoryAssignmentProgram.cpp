@@ -4,7 +4,7 @@
 #include <cstring>
 #include <iomanip>
 #include <sstream>
-#include "makeHash.h"
+#include "HashSHA-256.h"
 #include <Windows.h>
 #include "Dormitory.h"
 #include "Accounts.h"

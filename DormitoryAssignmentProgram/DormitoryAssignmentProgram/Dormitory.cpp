@@ -6,7 +6,7 @@ void dormitoryFunctions() {
     const int Rooms = 100;
     int count = 0;
     Room rooms[Rooms];
-    loadRooms(dormitoryFilename, rooms, count);
+    loadRooms(DORMITORY_FILE, rooms, count);
 
     do {
         system("cls");
@@ -59,7 +59,7 @@ void createRoom(Room rooms[], int& count) {
     }
 
     rooms[count++] = newRoom;
-    saveRooms(dormitoryFilename, rooms, count);
+    saveRooms(DORMITORY_FILE, rooms, count);
     cout << "Новая комната успешно добавлена\n";
 }
 
@@ -89,7 +89,7 @@ void editRoom(Room room[], int count) {
             }
 
             Sleep(2000);
-            saveRooms(dormitoryFilename, room, count);
+            saveRooms(DORMITORY_FILE, room, count);
             cout << "Комната успешно отредактирована\n";
             return;
         }
@@ -108,7 +108,7 @@ void deleteRoom(Room rooms[], int& count) {
                 rooms[j] = rooms[j + 1];
             }
             --count;
-            saveRooms(dormitoryFilename, rooms, count);
+            saveRooms(DORMITORY_FILE, rooms, count);
             cout << "Комната успешно удалена\n";
             return;
         }
