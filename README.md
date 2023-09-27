@@ -16,7 +16,7 @@
 Для использования этой программы, клонируйте репозиторий на вашу локальную машину и скомпилируйте исходный код с помощью компилятора C++.
 
 ```bash
-git clone https://github.com/Heimdall-Program/Dormitory-Assignment-Cpp.git
+git clone https://github.com/Daniil-Tsiunchyk/Dormitory-Assignment-Cpp.git
 ```
 
 ## Использование
